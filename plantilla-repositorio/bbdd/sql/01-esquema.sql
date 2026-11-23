@@ -1,0 +1,25 @@
+-- =============================================================
+-- 01-esquema.sql · Creación de las tablas
+-- Proyecto: RETO · <Nombre de la organización>
+-- SGBD: <MySQL 8 / MariaDB 10>
+-- Ejecución: mysql -u root -p <nombre_bd> < bbdd/sql/01-esquema.sql
+-- =============================================================
+-- LAB 03: sustituid este contenido por vuestro esquema real
+-- (o exportadlo con: mysqldump -u root -p --no-data <nombre_bd>).
+-- El ejemplo está comentado para que no cree tablas por error.
+
+-- CREATE TABLE usuario (
+--     id_usuario  INT          AUTO_INCREMENT PRIMARY KEY,
+--     nombre      VARCHAR(100) NOT NULL,
+--     email       VARCHAR(150) NOT NULL UNIQUE,
+--     fecha_alta  DATE         NOT NULL DEFAULT (CURRENT_DATE)
+-- );
+--
+-- CREATE TABLE reserva (
+--     id_reserva  INT  AUTO_INCREMENT PRIMARY KEY,
+--     fecha       DATE NOT NULL,
+--     id_usuario  INT  NOT NULL,
+--     -- Un usuario con reservas no se puede borrar
+--     CONSTRAINT fk_reserva_usuario FOREIGN KEY (id_usuario)
+--         REFERENCES usuario (id_usuario) ON DELETE RESTRICT
+-- );

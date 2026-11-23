@@ -1,0 +1,15 @@
+-- =============================================================
+-- 02-datos-prueba.sql · Datos de prueba
+-- Ejecutar DESPUÉS de 01-esquema.sql
+-- Ejecución: mysql -u root -p <nombre_bd> < bbdd/sql/02-datos-prueba.sql
+-- =============================================================
+-- LAB 03: sustituid este contenido por vuestros datos de prueba.
+-- No incluyáis datos personales ni contraseñas reales.
+
+-- INSERT INTO usuario (nombre, email) VALUES
+--     ('Ane Etxeberria', 'ane@ejemplo.com'),
+--     ('Mikel Garcia',  'mikel@ejemplo.com');
+--
+-- INSERT INTO reserva (fecha, id_usuario) VALUES
+--     ('2026-12-01', 1),
+--     ('2026-12-03', 2);
